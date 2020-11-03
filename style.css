@@ -73,3 +73,16 @@ body {
     order: 1;
   }
 }
+@media (min-width: 1270px) {
+  .box {
+    width: 350px;
+  }
+  .box-modify {
+    transform: translateY(50%);
+  }
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
